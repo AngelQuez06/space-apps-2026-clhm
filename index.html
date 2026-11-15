@@ -229,7 +229,7 @@ h2 em,h1 em{font-style:normal;color:var(--copper)}
   </section>
 
   <!-- 4 · Real science and transparency -->
-  <section class="slide" data-layout="b" data-laptop="radiation" data-phone="radiation_sat" data-hot="87,47" data-hot-phone="39,40" data-section="NASA Data">
+  <section class="slide" data-layout="b" data-laptop="radiation" data-phone="radiation" data-hot="87,47" data-hot-phone="39,46.5" data-section="NASA Data">
     <div class="col right">
       <div class="kicker r" style="--d:0">Real Science <span class="n">· 02</span></div>
       <h2 class="r" style="--d:1">Real data and <em>transparency.</em></h2>
@@ -275,7 +275,7 @@ h2 em,h1 em{font-style:normal;color:var(--copper)}
         <div class="card"><div class="ico"><svg class="icon"><use href="#i-route"/></svg></div><h3>More 10 m Zones</h3><p>Expand HiRISE terrain models for finer steps.</p></div>
       </div>
       <div class="r" style="--d:3;margin-top:42px;display:flex;align-items:center;gap:48px;text-align:left">
-        <div class="qr"><img src="../assets/qr.svg" alt="QR code to www.clhm.cooking"></div>
+        <div class="qr"><img src="assets/qr.svg" alt="QR code to www.clhm.cooking"></div>
         <div><div class="live" style="font-size:17px;font-weight:700;letter-spacing:3px">LIVE NOW</div><div class="url">www.clhm.cooking</div><p class="lead" style="margin-top:10px;font-size:21px;max-width:460px">Scan and plan your first Mars walk right from your phone. Thank you.</p></div>
       </div>
     </div>
@@ -291,7 +291,7 @@ h2 em,h1 em{font-style:normal;color:var(--copper)}
   const deck = document.getElementById("deck");
   const slides = [...deck.querySelectorAll(".slide")];
   const laptop = document.getElementById("laptop"), phone = document.getElementById("phone"), hot = document.getElementById("hot"), hotPhone = document.getElementById("hotPhone");
-  const SCREENS = "../assets/screens/";
+  const SCREENS = "assets/screens/";
 
   // Device positions per layout: [x, y, scale, opacity].
   const LAYOUTS = {
