@@ -4,7 +4,6 @@ Interactive pitch presentation demonstrating **CLHM** (*Interplanetary Survival 
 
 ## Live Links
 - **Live Web App:** https://www.clhm.cooking
-- **Presentation (GitHub Pages):** https://angelquez06.github.io/space-apps-2026-clhm/
 
 ## How to Run Locally
 1. Clone or download this repository:
