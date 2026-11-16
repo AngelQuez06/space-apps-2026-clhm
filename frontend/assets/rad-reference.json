@@ -1,0 +1,1 @@
+{"generated":"2026-11-14","period":{"from":"2026-01-01","to":"2026-11-11","days":315},"baseline":{"absorbed_si_mgy_day":0.1227},"method":{"dose_column":"RTG Corrected Dose B (silicon), Curiosity MMRTG contribution removed"},"source":{"name":"MSL RAD Level 2 dosimetry (RAD_RDR obs-l2), NASA SPDF","url":"https://spdf.gsfc.nasa.gov/pub/data/aaa_planetary/msl/rad/cdf/obs-l2/"}}

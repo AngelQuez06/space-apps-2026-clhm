@@ -1,0 +1,4 @@
+# Only needed to run the data scripts in scripts/ (not for the API server or the Docker image).
+-r requirements.txt
+rasterio==1.5.2
+cdflib==1.3.16

@@ -9,7 +9,7 @@ Versión: 14 de noviembre de 2026
 
 CLHM es un mapa web del cráter Gale y del monte Sharp (Marte) que funciona como una app de mapas de la Tierra. Puedes hacer zoom desde todo el cráter hasta cerca de 1 m por píxel, superponer capas del terreno (pendiente, relieve, térmica) y trazar una ruta entre dos puntos. El sistema calcula la distancia, el tiempo de recorrido, el oxígeno de una tripulación de dos personas y la dosis de radiación. Un modo de "tormenta solar" busca el camino más rápido a un refugio natural.
 
-El sitio abre el mapa estilizado del planificador con sitios reales y tramos del modelo de terreno de `/api/network`; las curvas del fondo son decorativas. Los controles de relieve, riesgo y ciencia conservan el color cobre al seleccionarse. Las imágenes geográficas de NASA/USGS siguen disponibles en el selector. Los datos se cargan automáticamente y aparece «Retry data» si falla la red; se quitó el botón de conexión.
+El sitio abre el mapa estilizado del planificador con sitios reales y tramos del modelo de terreno de `/api/network`; las curvas del fondo son decorativas. Las imágenes geográficas de NASA/USGS están disponibles en el selector de mapa. Los datos se cargan automáticamente y aparece un botón para reintentar si falla la red.
 
 Las imágenes y elevaciones vienen de fuentes públicas de la NASA y del USGS. Las rutas, el oxígeno, el tiempo y la dosis son estimaciones del modelo, no datos validados para seguridad. No se necesitan claves de API.
 
@@ -17,7 +17,7 @@ Las imágenes y elevaciones vienen de fuentes públicas de la NASA y del USGS. L
 | --- | --- |
 | Sitio web (frontend) | https://www.clhm.cooking |
 | API (backend) | https://api.clhm.study |
-| Código | https://github.com/sauriopqno/Space-apps-2026 |
+| Código | https://github.com/AngelQuez06/space-apps-2026-clhm |
 
 ## 2. Características principales
 
@@ -268,7 +268,7 @@ Los pasos de despliegue están en `backend/DEPLOY.md`. Los scripts de datos son 
 
 ## 12. Equipo
 
-- Backend, datos y despliegue: [AI - Imanol] con Imanol
-- Motor de rutas (A*): [AI - Angel]
-- Frontend: [AI - setzedich]
-- Investigación de datos: miembros del equipo (ver `Resources/General.txt`)
+- **Imanol:** backend, procesamiento de datos de NASA/USGS, despliegue y presentación
+- **Angel (AngelQuez06):** motor de rutas (A*) y presentación
+- **setzedich:** frontend
+- **Karina:** investigación de datos (ver `Resources/README.md`)
